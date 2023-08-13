@@ -1,0 +1,17 @@
+{
+  "name": "html-tailwind-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "npx tailwindcss -o build/styles.css --minify",
+    "dev": "npm run watch"
+  },
+  "keywords": [],
+  "author": "bkanhu",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
